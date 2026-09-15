@@ -2,10 +2,10 @@ services:
   mysql:
     image: mysql:8.4.11
     environment:
-      MYSQL_ROOT_PASSWORD: root_dev_pwd
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: todolist
-      MYSQL_USER: todolist
-      MYSQL_PASSWORD: todolist_dev_pwd
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
       - "3307:3306"
     volumes:
