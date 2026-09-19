@@ -1,4 +1,4 @@
-package West2.learn_backend;
+package west2.learn_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

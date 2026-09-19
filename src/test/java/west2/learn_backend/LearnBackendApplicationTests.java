@@ -1,4 +1,4 @@
-package West2.learn_backend;
+package west2.learn_backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
